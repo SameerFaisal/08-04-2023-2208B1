@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- <p>Do a case-insensitive search for "w3schools" in a string:</p>
+    
+    <p id="demo"></p>
+    
+    <script>
+    // let text = "Visit W3Schools";
+    // let result = text.match(/w3 schools/i);
+    // alert(result)
+    // document.getElementById("demo").innerHTML = result;
+
+// let text = "My contact number is 03001111111"
+// let result = text.search(/\s/g);
+// console.log(result)
+
+// let text = "Is this all there is?";
+// let result = text.replaceAll(/is/i,"are");
+// document.getElementById("demo").innerHTML = result; 
+
+
+    </script> -->
+
+    <h2>JavaScript Regular Expressions</h2>
+
+<p>Search for the characters "LO" in the <b>beginning</b> of a word in the phrase:</p>
+<p>"HELLO, LOOK AT YOU!"</p>
+
+<p>Found in position: <span id="demo"></span></p>
+
+<script>
+// let text = "HELLO, LOOK AT YOU!"; 
+// let result = text.search(/\bLO/);
+// document.getElementById("demo").innerHTML = result;
+
+// const pattern = /z/;
+// console.log(pattern.test("The best things in life are free!"));
+
+const obj = /The/.exec("The best things in life are free!");
+console.log(obj)
+</script>
+
+</body>
+</html>
